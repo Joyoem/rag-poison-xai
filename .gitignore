@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local vector DB payload
+/database/chroma_db_local/*
+!/database/chroma_db_local/.gitkeep
+
+# Streamlit/local env
+.streamlit/
+.venv/
+venv/
